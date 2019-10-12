@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome Glyphicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <style>
+  *{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background:lightblue;
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2014/12/15/17/16/pier-569314_1280.jpg");
+    background-size: cover;
+}
+.jumbotron{
+    background-image: url('https://c2.thejournal.ie/media/2018/01/declutter-your-friendships-752x501.jpg');
+ background-size: cover;
+ background-position: center;
+ color: rgb(29,29,29);
+ -webkit-filter: blur(0px);
+
+}
+footer{
+    color: whitesmoke;
+
+}
+a{
+    color:black;
+    font-size: 15pt;
+}
+.fa{
+color: rgb(0,98,167);
+}
+    </style>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
+      <hr>
+      <h2>Answer a few basic questions. </h2>
+      <h2>Then find the friend with the greatest compatibility!</h2>
+      <br>
+
+      <div>
+        <a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>
+      </div>
+
+    </div>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/Sultan94k/FriendFinder">GitHub Repo</a></p>
+      </div>
+    </footer>
+
+  </div>
+
+
+</body>
+
+</html>
