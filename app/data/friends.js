@@ -2,12 +2,12 @@ var friends = [
 	{
 		name: "Sam",
 		photo: "https://data.whicdn.com/images/187773064/original.gif",
-		scores: [5, 1, 2, 3, 1, 2, 5, 1, 1, 1]
+		scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 	},
 	{
 		name: "Ziad",
 		photo: "https://i1.wp.com/media2.giphy.com/media/WMpyrEnjfl4Gs/giphy.gif",
-		scores: [2, 5, 4, 1, 2, 3, 3, 2, 3, 3]
+		scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
 	},
 	{
 		name: "Ahmed",
