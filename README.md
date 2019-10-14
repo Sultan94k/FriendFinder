@@ -3,6 +3,7 @@
 
 Looking for new friends? Then it's time to find your friends using our special app called "FrienFinder".
 
+#Live link: [https://friendsultan.herokuapp.com/]
 ## Requirements
 
 * Modularity in the form of separate files for server logic, storing of friends, views, and routing.
@@ -16,7 +17,7 @@ Looking for new friends? Then it's time to find your friends using our special a
 ## Technologies Used
 
 * HTML
-- JS
+* JS
 * jQuery
 * node.js
 * Express.js
