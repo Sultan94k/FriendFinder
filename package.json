@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -17,9 +22,5 @@
   "bugs": {
     "url": "https://github.com/Sultan94k/heroku_me/issues"
   },
-  "homepage": "https://github.com/Sultan94k/heroku_me#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7"
-  }
+  "homepage": "https://github.com/Sultan94k/heroku_me#readme"
 }
